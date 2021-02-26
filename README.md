@@ -12,7 +12,9 @@ Steps to clone to your machine and commit:
   `$ git pull` (this shouldn’t be necessary for us, since we’re working in separate branches, but I think it’s a good habit to always pull before committing)
 
   `$ git branch` (to check you’re in the correct branch - should be your role name)
+
+  `$ git add . adds everything in current branch, ignoring according to .gitignore file
   
-  `$ git commit -am “descriptive message goes here”` (adds and commits everything in your local repo)
+  `$ git commit -m “descriptive message goes here”` (commits everything in your local repo that's not being ignored)
   
   `$ git push -u origin YourBranchName` (pushes your changes to the shared repo stored on github.com)
