@@ -9,10 +9,10 @@ Steps to clone to your machine and commit:
 
 3. In your terminal, navigate to the directory on your machine where you want to store our project work, then run: git clone https://github.com/mcnugg3t/CS400_P1.git
 
-4. I’ve already made branches for each of us to work in, based on our role names. Please do not make any changes in main. Once you have the repo downloaded, run one of the following:
-  `$ git checkout FrontEnd`
-  `$ git checkout BackEnd` or
-  `$ git checkout DataWrangler` (depending on your role).
+4. I’ve already made branches for each of us to work in, based on our role names. Please do not make any changes in main. Once you have the repo downloaded, run `git branch -a` to see all branches, then run one of the following(depending on your role):
+  `$ git checkout -b remotes/origin/FrontEnd`
+  `$ git checkout -b remotes/origin/BackEnd`
+  `$ git checkout -b remotes/origin/DataWrangler` (depending on your role).
 
 You should get the following message: `Branch <<BranchName>> set up to track remote branch <<BranchName>> from origin. Switched to a new branch <<BranchName>>.`
 
