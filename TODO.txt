@@ -1,0 +1,7 @@
+1. write dummy classes for team members to start developing with
+
+2. write a makefile for the app
+
+3. remind everyone - need README
+
+4. demo video
