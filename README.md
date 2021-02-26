@@ -14,4 +14,4 @@ Steps to clone to your machine and commit:
   
   $ git commit -am “descriptive message goes here” (adds and commits everything in your local repo)
   
-  $ git push -u origin YourBranchName (pushes your changes to the shared repo stored on github.com)
+  $ git push --set-upstream origin YourBranchName (pushes your changes to the shared repo stored on github.com)
