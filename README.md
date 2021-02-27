@@ -26,4 +26,4 @@ You should get the following message: `Branch <<BranchName>> set up to track rem
   
   `$ git commit -m “descriptive message goes here”` (commits everything in your local repo that's not being ignored)
   
-  `$ git push -u origin YourBranchName` (pushes your changes to the shared repo stored on github.com)
+  `$ git push -u origin` (pushes your changes to the shared repo stored on github.com)
